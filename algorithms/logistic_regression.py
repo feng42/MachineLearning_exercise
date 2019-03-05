@@ -89,7 +89,7 @@ class logistic_regression_test(object):
                 for x in lines:
                     w_tmp.append(float(x))
                 w.append(w_tmp)
-            return np.mat(w)
+        return np.mat(w)
 
     def load_data(self, file_name, n):
         with open(file_name, 'r') as fr:
