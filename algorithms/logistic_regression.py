@@ -4,7 +4,7 @@ TRAIN_DIR = "../train_data/"
 TEST_DIR = "../test_data/"
 MODEL_DIR = "../model/"
 RES_DIR = "../result/"
-TRAIN__DATA = TRAIN_DIR + "logistic_regression.train"
+TRAIN_DATA = TRAIN_DIR + "logistic_regression.train"
 TEST_DATA = TEST_DIR + "logistic_regression.test"
 MODEL_DATA = MODEL_DIR + "model.lr"
 RES = RES_DIR + "res.lr"
@@ -124,5 +124,5 @@ class logistic_regression_test(object):
             fw.write("\t".join(tmp))
 
 if __name__ == "__main__":
-    train = logistic_regression_train(TRAIN__DATA, MODEL_DATA, TRAIN_STEPS, LEARNING_RATE)
+    train = logistic_regression_train(TRAIN_DATA, MODEL_DATA, TRAIN_STEPS, LEARNING_RATE)
     test = logistic_regression_test(TEST_DATA, MODEL_DATA, RES)

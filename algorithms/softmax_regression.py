@@ -5,7 +5,7 @@ TRAIN_DIR = "../train_data/"
 TEST_DIR = "../test_data/"
 MODEL_DIR = "../model/"
 RES_DIR = "../result/"
-TRAIN__DATA = TRAIN_DIR + "softmax_regression.train"
+TRAIN_DATA = TRAIN_DIR + "softmax_regression.train"
 #TEST_DATA = TEST_DIR + "softmax_regression.test"
 MODEL_DATA = MODEL_DIR + "model.sr"
 RES = RES_DIR + "res.sr"
@@ -111,6 +111,6 @@ class softmax_regression_test(object):
                 fw.write(str(result[i, 0]) + '\n')
 
 if __name__ == "__main__":
-    train = softmax_regression_train(TRAIN__DATA, TRAIN_STEPS, LEARNING_RATE, MODEL_DATA)
+    train = softmax_regression_train(TRAIN_DATA, TRAIN_STEPS, LEARNING_RATE, MODEL_DATA)
     test = softmax_regression_test(MODEL_DATA, NUM_TEST_SAMPLES, RES)
     
