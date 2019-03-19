@@ -1,7 +1,7 @@
 #coding:UTF-8
 import numpy as np
 #import support_vector_machine as svm
-from support_vector_machine import *
+from algorithms.support_vector_machine import *
 import cPickle as pickle
 
 def load_data_libsvm(data_file):

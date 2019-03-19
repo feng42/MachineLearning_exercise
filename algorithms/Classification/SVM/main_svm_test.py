@@ -1,6 +1,6 @@
 import cPickle as pickle
 import numpy as np
-from support_vector_machine import *
+from algorithms.support_vector_machine import *
 from main_svm_train import svm_predict
 
 def load_test_data(test_file):

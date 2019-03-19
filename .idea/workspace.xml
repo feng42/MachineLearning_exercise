@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e14fb3ca-f69c-41d7-b5ea-1369ce651e10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms/main_svm_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/main_svm_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/random_forest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/random_forest_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/random_forest_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/support_vector_machine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/Regression/Linear/linear_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/Regression/Linear/linear_regression_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/Regression/Linear/linear_regression_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/Regression/Ridge/ridge_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/Regression/Ridge/ridge_regression_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/Regression/Ridge/ridge_regression_train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/factorization_machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/Classification/factorization_machine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/logistic_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/Classification/logistic_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/main_svm_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/Classification/SVM/main_svm_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/main_svm_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/Classification/SVM/main_svm_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/random_forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/Classification/RandomForest/random_forest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/random_forest_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/Classification/RandomForest/random_forest_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/random_forest_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/Classification/RandomForest/random_forest_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/softmax_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/Classification/softmax_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/support_vector_machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/Classification/SVM/support_vector_machine.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,35 +29,44 @@
     <session id="1318941695">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="13" />
-          <entry key="test" value="1" />
+          <entry key="center" value="3" />
+          <entry key="linearR" value="1" />
+          <entry key="py" value="22" />
+          <entry key="ridge" value="1" />
+          <entry key="sub" value="1" />
+          <entry key="test" value="2" />
+          <entry key="train" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="13" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Python" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="18394" />
+          <entry key="py" value="28271" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="18394" />
+          <entry key="Python" value="28271" />
         </counts>
       </usages-collector>
     </session>
@@ -56,9 +74,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithms/random_forest.py">
+        <entry file="file://$PROJECT_DIR$/algorithms/Classification/RandomForest/random_forest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1146">
+            <state relative-caret-position="2375">
               <caret line="127" column="31" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -70,29 +88,84 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithms/random_forest_train.py">
+        <entry file="file://$PROJECT_DIR$/algorithms/Classification/RandomForest/random_forest_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+            <state relative-caret-position="1083">
+              <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <marker date="1552226125160" expanded="true" signature="98:103" ph="..." />
-                <marker date="1552226125160" expanded="true" signature="1454:2208" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithms/Classification/RandomForest/random_forest_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+                <marker date="1552226125200" expanded="true" signature="129:134" ph="..." />
+                <marker date="1552226125200" expanded="true" signature="450:455" ph="..." />
+                <marker date="1552226125200" expanded="true" signature="873:878" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithms/random_forest_test.py">
+        <entry file="file://$PROJECT_DIR$/algorithms/Cluster/KMeans/KMeans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="493">
+              <caret line="55" column="40" lean-forward="true" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
-                <marker date="1552226125200" expanded="true" signature="129:134" ph="..." />
-                <marker date="1552226125200" expanded="true" signature="450:455" ph="..." />
-                <marker date="1552226125200" expanded="true" signature="873:878" ph="..." />
+                <marker date="1552898611610" expanded="true" signature="46:51" ph="..." />
+                <marker date="1552898611610" expanded="true" signature="136:141" ph="..." />
+                <marker date="1552898611610" expanded="true" signature="447:452" ph="..." />
+                <marker date="1552898611610" expanded="true" signature="1449:1454" ph="..." />
+                <marker date="1552898611610" expanded="true" signature="1739:1961" ph="..." />
+                <marker date="1552898611610" expanded="true" signature="1972:2275" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithms/Cluster/MeanShift/MeanShift.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1425">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <folding>
+                <element signature="e#14#32#0" expanded="true" />
+                <marker date="1552979733197" expanded="true" signature="113:118" ph="..." />
+                <marker date="1552979733197" expanded="true" signature="599:1324" ph="..." />
+                <marker date="1552979733197" expanded="true" signature="1373:1798" ph="..." />
+                <marker date="1552979733197" expanded="true" signature="1847:1852" ph="..." />
+                <marker date="1552979733197" expanded="true" signature="2777:3635" ph="..." />
+                <marker date="1552979733197" expanded="true" signature="3143:3379" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/ms.center">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1879" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithms/Cluster/KMeans/KMeansPP.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1552903641171" expanded="true" signature="159:367" ph="..." />
+                <marker date="1552903641171" expanded="true" signature="395:400" ph="..." />
               </folding>
             </state>
           </provider>
@@ -132,6 +205,16 @@
         <option value="$PROJECT_DIR$/algorithms/random_forest.py" />
         <option value="$PROJECT_DIR$/algorithms/random_forest_test.py" />
         <option value="$PROJECT_DIR$/algorithms/random_forest_train.py" />
+        <option value="$PROJECT_DIR$/algorithms/Regression/linear_regression_train.py" />
+        <option value="$PROJECT_DIR$/algorithms/Regression/linear_regression.py" />
+        <option value="$PROJECT_DIR$/algorithms/Regression/linear_regression_test.py" />
+        <option value="$PROJECT_DIR$/algorithms/Regression/Ridge/ridge_regression_train.py" />
+        <option value="$PROJECT_DIR$/algorithms/Regression/Ridge/ridge_regression.py" />
+        <option value="$PROJECT_DIR$/algorithms/Regression/Ridge/ridge_regression_test.py" />
+        <option value="$PROJECT_DIR$/algorithms/Regression/KMeans/KMeans.py" />
+        <option value="$PROJECT_DIR$/algorithms/Regression/KMeans/KMeansPP.py" />
+        <option value="$PROJECT_DIR$/algorithms/Cluster/MeanShift.py" />
+        <option value="$PROJECT_DIR$/algorithms/Cluster/MeanShift/MeanShift.py" />
       </list>
     </option>
   </component>
@@ -158,6 +241,59 @@
               <item name="MachineLearning_exercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearning_exercise" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Classification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="RandomForest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Cluster" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="KMeans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Cluster" type="462c0819:PsiDirectoryNode" />
+              <item name="MeanShift" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Regression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="Linear" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning_exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="Ridge" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MachineLearning_exercise" type="b2602c69:ProjectViewProjectNode" />
@@ -190,8 +326,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tensorflow_exercise" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algorithms/Cluster/MeanShift" />
+      <recent name="$PROJECT_DIR$/algorithms/Cluster" />
+      <recent name="$PROJECT_DIR$/algorithms/Regression/Linear" />
+      <recent name="$PROJECT_DIR$/algorithms/Classification" />
+      <recent name="$PROJECT_DIR$/algorithms/Classification/SVM" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -205,8 +350,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.random_forest_test">
-    <configuration name="factorization_machine" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.MeanShift">
+    <configuration name="KMeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning_exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -214,11 +359,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms/Regression/KMeans" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/factorization_machine.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/Regression/KMeans/KMeans.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,7 +372,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_svm_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="KMeansPP" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning_exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -235,11 +380,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms/Regression/KMeans" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/main_svm_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/Regression/KMeans/KMeansPP.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -248,7 +393,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_svm_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="MeanShift" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning_exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,11 +401,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms/Cluster/MeanShift" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/main_svm_train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/Cluster/MeanShift/MeanShift.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,7 +414,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="random_forest_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ridge_regression_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning_exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,11 +422,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms/Regression/Ridge" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/random_forest_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/Regression/Ridge/ridge_regression_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -290,7 +435,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="random_forest_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ridge_regression_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning_exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -298,11 +443,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms/Regression/Ridge" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/random_forest_train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/Regression/Ridge/ridge_regression_train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -312,19 +457,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.factorization_machine" />
-      <item itemvalue="Python.main_svm_train" />
-      <item itemvalue="Python.main_svm_test" />
-      <item itemvalue="Python.random_forest_train" />
-      <item itemvalue="Python.random_forest_test" />
+      <item itemvalue="Python.ridge_regression_train" />
+      <item itemvalue="Python.ridge_regression_test" />
+      <item itemvalue="Python.KMeans" />
+      <item itemvalue="Python.KMeansPP" />
+      <item itemvalue="Python.MeanShift" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.random_forest_test" />
-        <item itemvalue="Python.random_forest_train" />
-        <item itemvalue="Python.main_svm_test" />
-        <item itemvalue="Python.main_svm_train" />
-        <item itemvalue="Python.factorization_machine" />
+        <item itemvalue="Python.MeanShift" />
+        <item itemvalue="Python.KMeansPP" />
+        <item itemvalue="Python.KMeans" />
+        <item itemvalue="Python.ridge_regression_test" />
+        <item itemvalue="Python.ridge_regression_train" />
       </list>
     </recent_temporary>
   </component>
@@ -343,13 +488,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="992" y="24" width="928" height="1056" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.50275636" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.43219405" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3483387" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -388,20 +534,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/logistic_regression.py" />
     <entry file="file://$PROJECT_DIR$/algorithms/svm.py" />
-    <entry file="file://$PROJECT_DIR$/algorithms/logistic_regression.py">
+    <entry file="file://$PROJECT_DIR$/algorithms/Classification/logistic_regression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
           <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/softmax_regression.py">
+    <entry file="file://$PROJECT_DIR$/algorithms/Classification/softmax_regression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="113" column="42" selection-start-line="113" selection-start-column="42" selection-end-line="113" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -412,69 +555,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/factorization_machine.py">
+    <entry file="file://$PROJECT_DIR$/algorithms/Classification/factorization_machine.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1551834025782" expanded="true" signature="479:484" ph="..." />
-            <marker date="1551834025782" expanded="true" signature="565:951" ph="..." />
-            <marker date="1551834025782" expanded="true" signature="4743:4744" ph="..." />
-            <marker date="1551834025782" expanded="true" signature="4743:4748" ph="..." />
-            <marker date="1551834025782" expanded="true" signature="4795:4987" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_data/svm.test">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/main_svm_test.py">
+    <entry file="file://$PROJECT_DIR$/algorithms/Classification/SVM/main_svm_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
           <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1552217200086" expanded="true" signature="1195:1275" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/main_svm_train.py">
+    <entry file="file://$PROJECT_DIR$/algorithms/Classification/SVM/main_svm_train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
           <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-          <folding>
-            <element signature="e#14#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/support_vector_machine.py">
+    <entry file="file://$PROJECT_DIR$/algorithms/Classification/SVM/support_vector_machine.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <marker date="1552217906085" expanded="true" signature="32:37" ph="..." />
-            <marker date="1552217906085" expanded="true" signature="2303:2383" ph="..." />
-            <marker date="1552217906085" expanded="true" signature="2420:4758" ph="..." />
-            <marker date="1552217906085" expanded="true" signature="4854:4859" ph="..." />
-            <marker date="1552217906085" expanded="true" signature="5750:5752" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/CART_tree.py">
+    <entry file="file://$PROJECT_DIR$/algorithms/CART_tree.py" />
+    <entry file="file://$PROJECT_DIR$/test_data/linear_regression.test">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+        <state relative-caret-position="-3171">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/random_forest.py">
+    <entry file="file://$PROJECT_DIR$/train_data/linear_regression.train">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1146">
+        <state relative-caret-position="-2725" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/model.linearR">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/res.ridge">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/Regression/Ridge/ridge_regression_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="873">
+          <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/Regression/Ridge/ridge_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/Regression/Linear/linear_regression_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/Regression/Ridge/ridge_regression_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/Regression/Linear/linear_regression_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/Regression/Linear/linear_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" selection-start-line="27" selection-end-line="28" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/Classification/RandomForest/random_forest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2375">
           <caret line="127" column="31" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -484,27 +659,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/random_forest_train.py">
+    <entry file="file://$PROJECT_DIR$/algorithms/Classification/RandomForest/random_forest_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+        <state relative-caret-position="1083">
+          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <marker date="1552226125160" expanded="true" signature="98:103" ph="..." />
-            <marker date="1552226125160" expanded="true" signature="1454:2208" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/random_forest_test.py">
+    <entry file="file://$PROJECT_DIR$/algorithms/Classification/RandomForest/random_forest_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="665">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
             <marker date="1552226125200" expanded="true" signature="129:134" ph="..." />
             <marker date="1552226125200" expanded="true" signature="450:455" ph="..." />
             <marker date="1552226125200" expanded="true" signature="873:878" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/model.km.center">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/Cluster/KMeans/KMeansPP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1552903641171" expanded="true" signature="159:367" ph="..." />
+            <marker date="1552903641171" expanded="true" signature="395:400" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/model.km.sub">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/model.kmcpp.center">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/Cluster/MeanShift/MeanShift.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1425">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="e#14#32#0" expanded="true" />
+            <marker date="1552979733197" expanded="true" signature="113:118" ph="..." />
+            <marker date="1552979733197" expanded="true" signature="599:1324" ph="..." />
+            <marker date="1552979733197" expanded="true" signature="1373:1798" ph="..." />
+            <marker date="1552979733197" expanded="true" signature="1847:1852" ph="..." />
+            <marker date="1552979733197" expanded="true" signature="2777:3635" ph="..." />
+            <marker date="1552979733197" expanded="true" signature="3143:3379" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/ms.center">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1879" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/Cluster/KMeans/KMeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="55" column="40" lean-forward="true" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+          <folding>
+            <marker date="1552898611610" expanded="true" signature="46:51" ph="..." />
+            <marker date="1552898611610" expanded="true" signature="136:141" ph="..." />
+            <marker date="1552898611610" expanded="true" signature="447:452" ph="..." />
+            <marker date="1552898611610" expanded="true" signature="1449:1454" ph="..." />
+            <marker date="1552898611610" expanded="true" signature="1739:1961" ph="..." />
+            <marker date="1552898611610" expanded="true" signature="1972:2275" ph="..." />
           </folding>
         </state>
       </provider>
