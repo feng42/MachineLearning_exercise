@@ -47,7 +47,7 @@ def save_result(data_test, prediction, result_file):
 
 
 if __name__ == "__main__":
-    data_test = load_data("../test_data/random_forest.test")
-    trees_result, trees_feature = load_model("../model/model.rdf.res", "../model/model.rdf.fea")
+    data_test = load_data("../../../test_data/random_forest.test")
+    trees_result, trees_feature = load_model("../../../model/model.rdf.res", "../../../model/model.rdf.fea")
     prediction = get_predict(trees_result, trees_feature, data_test)
-    save_result(data_test, prediction, "../result/res.rdf")
+    save_result(data_test, prediction, "../../../result/res.rdf")

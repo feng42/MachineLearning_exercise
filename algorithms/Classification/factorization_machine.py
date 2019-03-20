@@ -1,10 +1,10 @@
 import numpy as np
 from random import normalvariate
 
-TRAIN_DIR = "../train_data/"
-TEST_DIR = "../test_data/"
-MODEL_DIR = "../model/"
-RES_DIR = "../result/"
+TRAIN_DIR = "../../train_data/"
+TEST_DIR = "../../test_data/"
+MODEL_DIR = "../../model/"
+RES_DIR = "../../result/"
 TRAIN_DATA = TRAIN_DIR + "factorization_machine.train"
 TEST_DATA = TEST_DIR + "factorization_machine.test"
 MODEL_DATA = MODEL_DIR + "model.fm"

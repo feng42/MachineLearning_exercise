@@ -1,10 +1,10 @@
 import numpy as np
 import random as rd
 
-TRAIN_DIR = "../train_data/"
-TEST_DIR = "../test_data/"
-MODEL_DIR = "../model/"
-RES_DIR = "../result/"
+TRAIN_DIR = "../../train_data/"
+TEST_DIR = "../../test_data/"
+MODEL_DIR = "../../model/"
+RES_DIR = "../../result/"
 TRAIN_DATA = TRAIN_DIR + "softmax_regression.train"
 #TEST_DATA = TEST_DIR + "softmax_regression.test"
 MODEL_DATA = MODEL_DIR + "model.sr"

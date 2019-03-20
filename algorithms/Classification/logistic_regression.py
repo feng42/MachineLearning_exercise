@@ -1,9 +1,9 @@
 import numpy as np
 
-TRAIN_DIR = "../train_data/"
-TEST_DIR = "../test_data/"
-MODEL_DIR = "../model/"
-RES_DIR = "../result/"
+TRAIN_DIR = "../../train_data/"
+TEST_DIR = "../../test_data/"
+MODEL_DIR = "../../model/"
+RES_DIR = "../../result/"
 TRAIN_DATA = TRAIN_DIR + "logistic_regression.train"
 TEST_DATA = TEST_DIR + "logistic_regression.test"
 MODEL_DATA = MODEL_DIR + "model.lr"

@@ -29,9 +29,9 @@ def save_model(file_name, w):
 
 
 def main():
-    feature, label = load_data('../../train_data/linear_regression.train')
+    feature, label = load_data('../../../train_data/linear_regression.train')
     w = newton(feature, label, 50, 0.1, 0.5)
-    save_model('../../model/model.linearR', w)
+    save_model('../../../model/model.linearR', w)
 
 
 if __name__ == "__main__":

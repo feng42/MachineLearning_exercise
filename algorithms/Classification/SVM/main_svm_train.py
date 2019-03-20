@@ -1,7 +1,7 @@
 #coding:UTF-8
 import numpy as np
 #import support_vector_machine as svm
-from algorithms.support_vector_machine import *
+from support_vector_machine import *
 import cPickle as pickle
 
 def load_data_libsvm(data_file):
@@ -52,11 +52,11 @@ def save_svm_model(svm_model, model_file):
 
 
 if __name__ == "__main__":
-    dataset, labels = load_data_libsvm("../train_data/svm.train")
+    dataset, labels = load_data_libsvm("../../../train_data/svm.train")
     penal = 0.6
     toler = 0.001
     maxIter = 500
     svm_model = SVM_trainning(dataset, labels, penal, toler, maxIter)
     accuracy = calc_accuracy(svm_model, dataset, labels)
     print("The Trainning accuracy is: %.3f%%" %(accuracy*100))
-    save_svm_model(svm_model, "../model/model.svm")
+    save_svm_model(svm_model, "../../../model/model.svm")

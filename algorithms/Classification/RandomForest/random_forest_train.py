@@ -67,10 +67,10 @@ def save_model(trees_result, trees_feature, result_file, feature_file):
 
 
 if __name__ == "__main__":
-    data_train = load_data("../train_data/random_forest.train")
+    data_train = load_data("../../../train_data/random_forest.train")
     trees_result, trees_feature = rdf.random_forest_training(data_train, 50)
     result = get_predict(trees_result, trees_feature, data_train)
     corr_rate = calc_correct_rate(data_train, result)
     print("\t-----correct rate:", corr_rate)
-    save_model(trees_result, trees_feature, "../model/model.rdf.res", "../model/model.rdf.fea")
+    save_model(trees_result, trees_feature, "../../../model/model.rdf.res", "../../../model/model.rdf.fea")
 

@@ -30,7 +30,7 @@ def get_prediction(data, w):
 
 
 if __name__ == "__main__":
-    testData = load_data('../../test_data/linear_regression.test')
-    w =load_model('../../model/model.linearR')
+    testData = load_data('../../../test_data/linear_regression.test')
+    w =load_model('../../../model/model.linearR')
     predict = get_prediction(testData, w)
     print(predict)

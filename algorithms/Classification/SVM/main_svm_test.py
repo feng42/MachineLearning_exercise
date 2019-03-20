@@ -1,6 +1,6 @@
 import cPickle as pickle
 import numpy as np
-from algorithms.support_vector_machine import *
+from support_vector_machine import *
 from main_svm_train import svm_predict
 
 def load_test_data(test_file):
@@ -48,7 +48,7 @@ def save_prediction(result_file, prediction):
     f.close()
 
 if __name__ == "__main__":
-    test_data = load_test_data("../test_data/svm.test")
-    svm_model = load_svm_model("../model/model.svm")
+    test_data = load_test_data("../../../test_data/svm.test")
+    svm_model = load_svm_model("../../../model/model.svm")
     prediction = get_prediction(test_data, svm_model)
-    save_prediction("../result/res.svm", prediction)
+    save_prediction("../../../result/res.svm", prediction)
