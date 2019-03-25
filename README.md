@@ -43,8 +43,9 @@
 选择初始点->方向/步长更新->满足终止条件
 凸优化:局部最优==>全局最优
 最小二乘、岭回归、Logistic回归是凸优化问题
-3. 主函数
-导入训练数据->训练LR模型->保存最终模型
+
+good explain: https://blog.csdn.net/sinat_29957455/article/details/78944939
+
 ## 2 Softmax Regression
 0. Softmax回归:相比Logistic Regression,能解决多分类问题
 1. 模型
